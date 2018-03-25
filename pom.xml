@@ -21,6 +21,7 @@
     <modules>
         <module>guava-demo</module>
         <module>lombok-demo</module>
+        <module>jsoup-demo</module>
     </modules>
 
     <properties>
@@ -37,6 +38,12 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>23.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jsoup</groupId>
+                <artifactId>jsoup</artifactId>
+                <version>1.11.2</version>
             </dependency>
         </dependencies>
 
